@@ -5,10 +5,10 @@ template: splash
 hero:
   tagline: Your one-stop-shop for trans resources!
   image:
-    file: ../../assets/houston.webp
+    file: ../../assets/emma.png
   actions:
-    - text: Example Guide
-      link: /guides/example/
+    - text: The Wiki!
+      link: /start/home/
       icon: right-arrow
       variant: primary
     - text: Read the Starlight docs
@@ -18,19 +18,19 @@ hero:
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
 
-## Next steps
+## Highlights!
 
-<CardGrid stagger>
-	<Card title="Update content" icon="pencil">
-		Edit `src/content/docs/index.mdx` to see this page change.
+<CardGrid>
+	<Card title="Update content" icon="approve-check-circle">
+		Edits must be verified by a member of the Project Topaz Team. Community members will also be able to see changes before they are pushed!
 	</Card>
-	<Card title="Add new content" icon="add-document">
-		Add Markdown or MDX files to `src/content/docs` to create new pages.
+	<Card title="Add new content" icon="heart">
+		Made by trans women for other trans individuals. We want to help make your transition easier by sharing the resources we collected during ours!
 	</Card>
-	<Card title="Configure your site" icon="setting">
-		Edit your `sidebar` and other config in `astro.config.mjs`.
+	<Card title="Configure your site" icon="rocket">
+		Our wiki is built on the Astro framework, so it is built to be fast, even on slower computers! The wiki is currently using the Starlight template.
 	</Card>
-	<Card title="Read the docs" icon="open-book">
-		Learn more in [the Starlight Docs](https://starlight.astro.build/).
+	<Card title="Read the docs" icon="github">
+		Our Wiki, its contents, and all of its scripts are available publically on our GitHub Repo. Want to contribute? Check it out!
 	</Card>
 </CardGrid>
