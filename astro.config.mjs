@@ -4,6 +4,7 @@ import starlightLinksValidator from 'starlight-links-validator'
 
 // https://astro.build/config
 export default defineConfig({
+	site: 'https://transfemme.wiki',
 	integrations: [
 		starlight({
 			head: [
@@ -18,6 +19,9 @@ export default defineConfig({
 			],
 			plugins: [starlightLinksValidator()],
 			title: 'Transfemme.wiki',
+			logo: {
+				src: './src/assets/logo.png'
+			},
 			social: {
 				discord: 'https://discord.gg/35bvvAaRhQ',
 				github: 'https://github.com/SydneyWafflez/transfemme-wiki',
@@ -59,6 +63,14 @@ export default defineConfig({
 					  { label: 'The United States', slug: 'countries/us' },
 						],
 					  },
+					  {
+						label: 'Europe',
+						collapsed: true,
+						items: [
+					  { label: 'Iceland', slug: 'countries/iceland'},
+					  { label: 'The United Kingdom', slug: 'countries/uk' },
+						],
+					  },
 					],
 				  },
 				{
@@ -66,6 +78,7 @@ export default defineConfig({
 					collapsed: true,
 					items: [
 						{ label: 'Contributors', slug: 'extras/contributors' }, 
+						{ label: 'PGP Key', slug: 'extras/pgp'},
 					],
 				},
 				{

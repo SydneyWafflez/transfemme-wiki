@@ -3,7 +3,7 @@ title: Wiki Home
 description: The transfemme.wiki home page for the wiki
 ---
 
-Hey there! We're so excited to have you here at Transfemme.wiki, your friendly resource hub for trans care and support. This wiki is a labor of love by the trans couple who also run estrogen.gg. We're all about making sure you have the information and resources you need to navigate your trans journey with confidence.
+Hey there! We're so excited to have you here at Transfemme.wiki, your friendly resource hub for trans care and support. This wiki is a labor of love by the trans couple who also run estrogen.gg. We're all about making sure you have the information and resources you need to navigate your trans journey with confidence!
 
 
 ## What You'll Find Here:
