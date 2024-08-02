@@ -84,7 +84,6 @@ export default defineConfig({
 				{
 					label: 'Contact us!',
 					items: [
-						{ label: 'General Email', link: 'mailto:hello@transfemme.wiki' }, 
 						{ label: 'Join Our Discord', link: 'https://discord.gg/35bvvAaRhQ' }, 
 						{ label: 'Estrogen.gg Profile', link: 'https://estrogen.gg/@transfemmewiki' }, 
 					],
